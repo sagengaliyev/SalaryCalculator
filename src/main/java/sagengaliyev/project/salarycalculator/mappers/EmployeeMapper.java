@@ -5,13 +5,13 @@ import sagengaliyev.project.salarycalculator.dto.EmployeeDTO;
 import sagengaliyev.project.salarycalculator.models.Employee;
 
 /**
- * Маппер для сущности Employee, который имеет два метода: toDTO и toEntity, для конвертирования
- * DTO объектов в сущность и наоборот
+ * A mapper for the Employee entity, which has two methods: to DTO and to Entity, for conversion
+  DTO objects into an entity and vice versa
  */
 @Component
 public class EmployeeMapper {
     /**
-     * Метод который конвертирует сущность в DTO объект и возвращает его
+     * A method that converts an entity into a DTO object and returns it
      * @param employee
      * @return
      */
@@ -27,8 +27,8 @@ public class EmployeeMapper {
     }
 
     /**
-     * Метод который принимает объект DTO и конвертирует его в сущность (для сохранения данных объекта в Базу Данных)
-     * и возвращает данную сущность
+     * A method that takes a DTO object and converts it into an entity (to save the object's data to a Database)
+     * and returns this entity
      * @param employeeDTO
      * @return
      */

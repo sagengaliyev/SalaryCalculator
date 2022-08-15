@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 import sagengaliyev.project.salarycalculator.models.Employee;
 
 /**
- * Репозиторий для сущности Employee, чтобы мы могли сохранять, изменять,удалять сущность Employee с Базы Данных
+ * Repository for the Employee entity so that we can save, modify, delete the Employee entity from the Database
  */
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {

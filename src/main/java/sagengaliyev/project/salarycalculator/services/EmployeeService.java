@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Класс помеченный аннотацией @Service для сущности Employee, чтобы писать бизнес логику связанную с сущностью Employee
+ * A class marked with the @Service annotation for the Employee entity to write business logic related to the Employee entity
  */
 @Service
 public class EmployeeService {
@@ -24,7 +24,7 @@ public class EmployeeService {
 
 
     /**
-     * метод для вывода всех работников с Базы Данных
+     * method for removing all employees from the database
      * @return
      */
     public List<EmployeeDTO> getEmployee() {
@@ -35,9 +35,9 @@ public class EmployeeService {
     }
 
     /**
-     * Метод для расчета итоговой зарплаты пропорционально отработанному времени
-     * принимает объект EmployeeDTO в формате JSON, извлекает из него нужные данные, сохраняет в базу данных(MySQL)
-     * и возвращает итоговую зарплату:totalAmount
+     * The method for calculating the final salary in proportion to the time
+     * worked takes an EmployeeDTO object in JSON format, extracts the necessary data from it, saves it to a database (MySQL)
+     * and returns the final salary:totalAmount
      * @param employeeDTO
      * @return
      */

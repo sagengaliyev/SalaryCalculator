@@ -8,10 +8,11 @@ import java.time.LocalDateTime;
 
 
 /**
- * Сущность Employee в которой хранятся такие атрибуты как:
- * employeeId id работника, salary - фиксированная зарплата, starTime, endTime - время начало и конца рабочего дня работника
- * timeWorked - время проработанное в данный день в минутах,
- * totalAmount - итоговая зарплата пропорционально отработанному времени
+ * Employee entity that stores attributes such as:
+ * employeeId employee id, salary - fixed salary,
+ * startTime, endTime - the time of the beginning and end of the employee's working day
+ * timeWorked - the time worked on a given day in minutes,
+ * totalAmount - the total salary in proportion to the time worked
  */
 @Data
 @Entity

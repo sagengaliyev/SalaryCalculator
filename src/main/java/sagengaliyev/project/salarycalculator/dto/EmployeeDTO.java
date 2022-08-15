@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 
 /**
- * DTO объект сущности Employee
+ * DTO object of the Employee entity
  */
 @Data
 public class EmployeeDTO {

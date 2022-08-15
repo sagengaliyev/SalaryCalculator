@@ -9,9 +9,9 @@ import sagengaliyev.project.salarycalculator.services.EmployeeService;
 import java.util.List;
 
 /**
- * класс который является Rest Controller(потому что на каждый http запрос он будет возвращать json объект)
- * для сущности Employee
- * также аннотация @RequestMapping чтобы указать начало адреса url employee по умолчанию
+ * a class that is a Rest Controller (because it will return a json object for each http request)
+ * for the Employee entity
+ *  also annotation @RequestMapping to indicate the beginning of the employee url by default
  */
 @RestController
 @RequestMapping("/api/employee")
